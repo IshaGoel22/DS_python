@@ -3,31 +3,53 @@
 Created on Sun Jan 17 19:53:57 2021
 
 @author: ISHA
-"""
 
 """
-Created on 17-01-21
-by isha goel
-"""
+#basics
+help(\t)
 print('hi')
-print("Hi I am isha")
+print("Hi I am",end='\t')
+print('isha goel')
 """
 by default new line
 """
-print('data science',end='')
-print(" course")
+print('data science',end='\t')
+print('course')
 """
 sep='\n' new line
 sep='-' - btw each word
 end='' to start next line after finishing first
-end='\t' space b/w first and second line
+end='\t' space b/w first and second line printed in same line
 """
-print('Hi','welcome')
+print('Hi','welcome',sep='-')
+print('hello')
 
 import pandas
-
 pandas.__version__
+!pip install pandas
+!pip list     '''for list of version'''
+!pip install --upgrade pandas
+!conda install pandas
+
+#Libraries and Packages
+
+import pandas as pd
+pd.__version__
+
+!pip list
+!pip show pandas
+
+#Update Packages
+
+!python -m pip install --upgrade pip
+!pip --version
+!conda update pip
+
+# install Packages
 
 !pip install pandas
-!pip list     #for list of version
-!pip install --upgrade pandas
+!conda install numpy
+
+#Search
+!conda search scipy
+!conda list
