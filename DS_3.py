@@ -11,21 +11,20 @@ Created on Sat Jan 23 18:04:51 2021
 
 #array =[1,2,3]
 
-#array = [1,1.3,..]
+#array = [1,1.3,'hi',[True]
 
-#
+#mutable or changeable
+
+#ordered or unordered 
+
+#indexed
 
 
-
-
-
-
-#list
+#list -- unordered data types
 ''' iterative element with more than 1 element'''
 L1 =[2,1,3,4]
-
-type(L1)
 print (L1)
+type(L2)
 #list is kind of unordered data
 
 L2 =['Isha',True,1,5.6]
@@ -38,26 +37,37 @@ L2[1]
 L2[2]
 L2[3]
 #indexed
+L2[4] #index error :list out of range
 
 #iterative
 for i in L2:
     print (i)
 #space -- indentation
 
+len(L2)
+
 r1 = range(5)
-r1
 type(r1)
-
-lr1 = list(r1)
-len(lr1)
-
-r1 = range(10,50)
 r1
-type(r1)
 
 lr1 = list(r1)
 lr1
 len(lr1)
+#lenght of list
+
+r1 = range(20,50)
+type(r1)
+r1
+
+
+lr1 = list(r1)
+len(lr1)
+lr1
+
+
+r1 = range(10,20,5)
+r1
+type(r1)
 
 
 #specific element in list
