@@ -33,7 +33,8 @@ for instllation in python
 import pandas
 pandas.__version__
 !pip install pandas
-!pip list     '''for list of version'''
+!pip list   
+  '''for list of version'''
 !pip install --upgrade pandas
 !conda install pandas
 
