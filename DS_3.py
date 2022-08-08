@@ -11,7 +11,7 @@ Created on Sat Jan 23 18:04:51 2021
 
 #array =[1,2,3]
 
-#array = [1,1.3,'hi',[True]
+#array = [1,1.3,'hi',[True]]
 
 #mutable or changeable
 
@@ -24,7 +24,7 @@ Created on Sat Jan 23 18:04:51 2021
 ''' iterative element with more than 1 element'''
 L1 =[2,1,3,4]
 print (L1)
-type(L2)
+type(L1)
 #list is kind of unordered data
 
 L2 =['Isha',True,1,5.6]
@@ -60,11 +60,10 @@ len(lr1)
 r1 = range(20,50)
 type(r1)
 r1
-
-
 lr1 = list(r1)
 len(lr1)
 lr1
+type(lr1)
 
 
 r2 = range(10,20,5)
@@ -92,7 +91,7 @@ lr1.count(15)
 
 #mutable list --- any element can be changed in list
 
-lr[1]= 55
+lr1[1]= 55
 lr1
 
 '''
@@ -112,19 +111,20 @@ lr1.remove(10)
 lr1
 
 
-#del specific element
+#del specific element at particular index
 del lr1[0]
 lr1
 
+#delete whole list
 del lr1
 lr1
 
-#returns some value that is popped out
-
+#returns some value that is popped out(last element)
 a = lr1.pop()
 lr1
 a
 
+#pop element at index 3
 b = lr1.pop(3)
 b
 
@@ -132,7 +132,8 @@ b
 lr2 = [10,15,20,25,10,15,10,45]
 lr2
 
-
+#make lr1 empty list by clear()
+lr1=[2,3,4,4]
 lr1.clear()
 lr1
 
@@ -142,6 +143,7 @@ lr2
 #empty list
 lr1=[]
 
+#add elements in list
 for i in lr2:
     lr1.append(i)
     print(lr1)
