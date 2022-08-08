@@ -6,7 +6,7 @@ Created on Sun Jan 17 19:53:57 2021
 
 """
 #basics
-help(\t)
+
 print('hi')
 print("Hi I am",end='\t')
 print('isha goel')
@@ -30,11 +30,12 @@ pypi.org  site
 for instllation in python
 
 '''
+'''
 import pandas
 pandas.__version__
 !pip install pandas
 !pip list   
-  '''for list of version'''
+  for list of version
 !pip install --upgrade pandas
 !conda install pandas
 
@@ -55,7 +56,7 @@ pd.__version__
 # install Packages
 
 !pip install pandas
-!conda install numpy   '''(install numpy from anaconda)'''
+!conda install numpy   (install numpy from anaconda)
 
 #Search
 !conda search scipy
@@ -63,3 +64,4 @@ pd.__version__
 
 #pip version
 !pip --version   
+'''
